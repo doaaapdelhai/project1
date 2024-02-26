@@ -1,0 +1,70 @@
+.properties {
+    /* height: 100vh; */
+    position: relative;
+}
+.properties h1{
+    color: white;
+     position: absolute;
+     left: 45%;
+     top: 110px;
+}
+.properties .primary  button  {
+    padding: 8px 3px;
+    width: 150px;
+    position: absolute;
+    left: 47%;
+    top: 70px;
+    font-size: 10px;
+}
+/* contact */
+.main-contact{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.main-contact .title {
+    width: 50%;
+    color: black;
+    margin-left: 70px;
+    font-size: 18px;
+}
+
+.main-contact .p2{
+    margin-left: 70px;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #ff440b;
+
+
+
+} 
+
+.form{
+    margin-top: 50px;
+    margin-right: 100px;
+}
+ input{
+    display: block;
+    width: 350px;
+    padding: 20px 15px;
+    margin: 20px 0;
+    background-color:rgba(232, 225, 212, 0.489);
+    border: 1px solid #f35525;
+    border: none;
+    outline: none;
+}
+.o{
+    background-color: #f35525;
+    color: white;
+    padding: 10px;
+    border: none;
+    width: 100px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-bottom: 50px
+}
+.o:hover{
+    background-color: #ff440b;
+
+}

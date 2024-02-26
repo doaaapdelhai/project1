@@ -1,0 +1,36 @@
+
+.top-nav{
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 60px;
+}
+  .top-nav-left ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+  .top-nav-left ul li a {
+    color: #fff;
+    font-size: 25px;
+    padding: 10px;
+    transition: 0.5s;
+    color: #f35525;
+  }
+ 
+  .top-nav-right {
+    display: flex;
+    gap: 10px;
+  }
+  .top-nav-right i {
+    font-size: 25px;
+    color: #f35525;
+  }
+  .top-nav-right p {
+    font-size: 18px;
+  } 
+  hr{
+    opacity: 0.3;
+  }

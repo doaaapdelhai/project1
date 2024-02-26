@@ -1,0 +1,96 @@
+.properties {
+    /* height: 100vh; */
+    position: relative;
+}
+.properties h1{
+    color: white;
+     position: absolute;
+     left: 45%;
+     top: 110px;
+}
+.properties .primary  button  {
+    padding: 8px 3px;
+    width: 150px;
+    position: absolute;
+    left: 47%;
+    top: 70px;
+    font-size: 10px;
+}
+/* ------------------------ cards--------------------------------- */
+
+.ptns{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.ptns .btn1{
+    margin-top: 70px;
+    color: white;
+    background: #000;
+    border: none;
+    margin-right: 10px;
+    padding: 12px;
+    width: 110px;
+    border-radius: 10px;
+}
+.ptns .btn2{
+    margin-top: 70px;
+    color: white;
+    background-color: #f35525;
+    border: none;
+    margin-right: 10px;
+    padding: 12px;
+    width: 110px;
+    border-radius: 10px;
+}
+/* ------------------------ cards--------------------------------- */
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    margin-bottom: 40px;
+
+}
+.cards .card{
+    width: 25%;
+    /* background-color: #ccc; */
+    margin-bottom: 18px;
+    
+
+}
+.cards .card img{
+    width: 100%;
+}
+
+.card >*{
+    margin-top: 20px;
+    padding-right: 20px;
+}
+.card div{
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+
+}
+.card button{
+    background-color: #fbd9cf;
+    color:black;
+    border-radius: 10px;
+    border: none;
+    font-size: 14px;
+    margin-left: 20px;
+    padding: 5px 10px;
+}
+.card p{
+    color:black;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.card h4{
+    color:#f35525;
+
+}

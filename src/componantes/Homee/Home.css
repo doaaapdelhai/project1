@@ -1,0 +1,84 @@
+
+.header {
+    /* height: 100vh; */
+    background-color: white;
+}
+.slider{
+    /* width: 500px;
+    height: 500px; */
+    margin: auto;
+    height: max-content;
+    overflow:hidden ;
+}
+.title-header {
+    position: relative;
+}
+img{
+    width: 100%;
+}
+.header p{
+    position: absolute;
+    top: 50px;
+    left: 60px;
+    color: red;
+}
+/* ==================================== video ========================= */
+.main-video{
+    position: relative;
+    margin-bottom: 200px;
+
+
+
+}
+.img-video img {
+    height: 550px;
+
+}
+.video-video {
+    position: absolute;
+    top: 60%;
+    left: 25%;
+    
+}
+.video-video img{
+    width: 99%;
+    height: 300px;
+}
+.d{
+    font-size: 40px;
+    margin-left: 38%;
+    color: white;
+    position: absolute;
+    bottom: 60%;
+
+}
+.k{
+    font-size: 20px;
+    margin-left: 45%;
+    color: white;
+    position: absolute;
+    bottom: 80%;
+    color: orangered;
+}
+/* =============== contact======================= */
+
+.img-contact{
+    width: 500px;
+height: 400px;
+}
+h4{
+    font-size: 25px;
+}
+
+/* =============== property======================= */
+
+
+.content-right{
+    /* margin-top: 50px; */
+    border: none;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 130px;
+}
+
